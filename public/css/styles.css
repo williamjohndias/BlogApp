@@ -1,0 +1,256 @@
+/* Estilos da Navbar */
+.custom-navbar {
+  background-color: #333; /* Cor de fundo escura para a navbar */
+  padding: 0.5rem 1rem; /* Espaçamento interno da navbar */
+}
+
+/* Estilo do link da navbar */
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff; /* Cor do texto dos links */
+  font-size: 1rem; /* Tamanho da fonte */
+  margin: 0 0.5rem; /* Margem horizontal entre os links */
+  transition: color 0.3s ease; /* Transição suave para mudanças de cor */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilo da marca da navbar */
+.custom-navbar .navbar-brand {
+  color: #fff; /* Cor do texto da marca */
+  font-size: 1.25rem; /* Tamanho da fonte da marca */
+  font-weight: bold; /* Peso da fonte da marca */
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: #f8f9fa; /* Cor da marca ao passar o mouse */
+}
+
+/* Estilo do botão de toggler */
+.custom-navbar .navbar-toggler {
+  border: none; /* Remove a borda do botão */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,..."); /* Personalize o ícone se desejar */
+}
+
+/* Estilo da navbar quando colapsada */
+.custom-navbar .navbar-collapse {
+  justify-content: flex-end; /* Alinha os links à direita quando colapsado */
+}
+
+.custom-navbar .navbar-collapse .nav-item {
+  margin: 0.25rem; /* Margem entre os itens quando colapsado */
+}
+
+.custom-navbar .navbar-collapse .nav-link {
+  padding: 0.5rem 1rem; /* Padding interno dos links quando colapsado */
+}
+
+/* main */
+
+/* Estilos do Container Principal */
+.container {
+  margin-top: 1rem; /* Espaçamento superior para o container */
+  padding: 1rem; /* Espaçamento interno do container */
+  background-color: #f8f9fa; /* Cor de fundo clara para contraste */
+  border-radius: 0.5rem; /* Bordas arredondadas */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Sombra sutil */
+}
+
+/* Estilo dos Alertas */
+.alert {
+  border-radius: 0.25rem; /* Bordas arredondadas dos alertas */
+  font-size: 0.875rem; /* Tamanho da fonte dos alertas */
+  margin-bottom: 1rem; /* Espaçamento inferior dos alertas */
+}
+
+/* Estilo das Mensagens Personalizadas */
+.custom-msg {
+  padding: 1rem; /* Espaçamento interno das mensagens */
+  margin-top: 1rem; /* Espaçamento superior das mensagens */
+  background-color: #e9ecef; /* Cor de fundo das mensagens */
+  border-left: 0.25rem solid #007bff; /* Borda esquerda colorida */
+  border-radius: 0.25rem; /* Bordas arredondadas */
+}
+
+/* Estilo dos Links */
+a {
+  color: #007bff; /* Cor dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* cards */
+/* Estilos gerais do corpo */
+body {
+  font-family: "Arial", sans-serif; /* Fonte limpa e legível */
+  line-height: 1.6; /* Altura da linha para melhor legibilidade */
+  color: #333; /* Cor do texto principal */
+  background-color: #f4f4f4; /* Cor de fundo clara */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos do título principal */
+h1 {
+  font-size: 2rem;
+  color: #007bff; /* Cor principal para os títulos */
+  margin-bottom: 1rem; /* Espaçamento inferior */
+  text-align: center; /* Alinha o título ao centro */
+}
+
+/* Estilos dos Cards */
+.card {
+  background-color: #fff; /* Cor de fundo do card */
+  border: 1px solid #ddd; /* Borda leve */
+  border-radius: 0.5rem; /* Bordas arredondadas */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin-bottom: 1rem; /* Espaçamento inferior entre cards */
+  padding: 1rem; /* Espaçamento interno do card */
+}
+
+/* Estilos do corpo do Card */
+.card-body {
+  padding: 0; /* Remove padding interno extra */
+}
+
+/* Estilos dos Títulos dentro do Card */
+.card-body h3 {
+  font-size: 1.5rem;
+  color: #333; /* Cor do texto do título do card */
+  margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+/* Estilos da Descrição dentro do Card */
+.card-body p {
+  color: #666; /* Cor do texto da descrição */
+  margin-bottom: 1rem; /* Espaçamento inferior */
+}
+
+/* Estilos dos Botões */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none; /* Remove a borda padrão dos botões */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.btn-success {
+  background-color: #28a745; /* Cor de fundo verde */
+  color: #fff; /* Cor do texto do botão */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+
+/* Estilos da Data de Publicação */
+small {
+  display: block;
+  font-size: 0.875rem; /* Tamanho da fonte menor */
+  color: #999; /* Cor do texto da data */
+}
+
+/* Estilos quando não há postagens */
+h5 {
+  text-align: center; /* Alinha o texto ao centro */
+  color: #666; /* Cor do texto */
+}
+
+/* Estilos Gerais para Admins */
+h2 {
+  font-size: 2rem;
+  color: #007bff; /* Cor principal para títulos */
+  margin-bottom: 1rem; /* Espaçamento inferior */
+  text-align: center; /* Alinha o título ao centro */
+}
+
+hr {
+  margin: 1rem 0; /* Espaçamento superior e inferior do separador */
+}
+
+/* Estilo do botão "Nova Postagem" */
+.btn-success {
+  background-color: #28a745; /* Cor de fundo verde */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda padrão */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilos dos Cards */
+.card {
+  background-color: #fff; /* Cor de fundo do card */
+  border: 1px solid #ddd; /* Borda leve */
+  border-radius: 0.5rem; /* Bordas arredondadas */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  margin-bottom: 1rem; /* Espaçamento inferior entre cards */
+  padding: 1rem; /* Espaçamento interno do card */
+}
+
+/* Estilo do corpo do Card */
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilo do título dentro do Card */
+.card-body h4 {
+  font-size: 1.25rem;
+  color: #333; /* Cor do texto do título do card */
+  margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+/* Estilo da Descrição dentro do Card */
+.card-body p {
+  color: #666; /* Cor do texto da descrição */
+  margin-bottom: 0.5rem; /* Espaçamento inferior */
+}
+
+/* Estilo da Data e Categoria dentro do Card */
+.card-body .info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem; /* Espaçamento superior */
+  color: #666; /* Cor do texto das informações */
+}
+
+/* Estilo dos Botões dentro do Card */
+.card-body .btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem; /* Espaçamento superior dos botões */
+  border: none; /* Remove a borda padrão dos botões */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Cor de fundo vermelho */
+  color: #fff; /* Cor do texto do botão */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo da mensagem de "Nenhuma postagem registrada" */
+p {
+  text-align: center; /* Alinha o texto ao centro */
+  color: #666; /* Cor do texto */
+}
